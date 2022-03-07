@@ -11,15 +11,54 @@
   background-color: lightsalmon;
 }
 
-.product{
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  margin-right: 20px;
-}
 
 
 /* Product Elements */
+
+.product{
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  height: 80%;
+  width: auto;
+}
+
+/* Image Elements */
+
+.image-box{
+  position: relative;
+  cursor: pointer;
+}
+
+.product .image-box .heart{
+  top:10px;
+  right: 0;
+  padding: 10px 15px;
+  background-color: white;
+} 
+
+
+.product .image-box .discount{
+  background-color: #ea0036;
+}
+
+.product .image-box .sustainability{
+  left: 8%;
+  background-color: #008759;
+}
+
+.product .image-box .discount, .product .image-box .sustainability{
+  color: white;
+  bottom: 20px;
+}
+
+.product .image-box .heart, .product .image-box .discount, .product .image-box .sustainability{
+  position: absolute;
+}
+
+.product .image-box .sustainability, .product .image-box .discount{
+padding: 5px;
+}
 
 /* Information Box */
 .product .information-box{
@@ -28,7 +67,6 @@
   color: black;
   font-size: 12px;
 }
-
 
 /* Information Box Elements */
 .product .information-box .product-name{
