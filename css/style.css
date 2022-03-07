@@ -23,8 +23,8 @@ body{
   position: relative;
   display: inline-block;
   width: 33%;
-  padding-bottom: 30px;
   cursor: pointer;
+  margin: 30px 2px;
 }
 
 /* Image Elements */
