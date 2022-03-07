@@ -8,10 +8,28 @@
   width: 80%;
   margin: 30px auto;
   text-align: center;
+  background-color: red;
 }
 
 .product{
   position: relative;
   display: inline-block;
   cursor: pointer;
+  margin-right: 20px;
 }
+
+
+/* Product Elements */
+
+.information-box{
+  padding-top: 10px;
+  text-align: left;
+  color: black;
+  font-size: 12px;
+}
+
+.product-name{
+  text-transform: uppercase;
+}
+
+
