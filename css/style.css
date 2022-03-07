@@ -7,11 +7,8 @@
 .row{
   width: 80%;
   height: auto;
-
   margin: 30px auto;
   text-align: center;
-  /* DA ELIMINARE SUCCESSIVAMENTE */
-  background-color: lightsalmon;
 }
 
 body{
@@ -67,8 +64,9 @@ body{
   padding: 10px;
 }
 
+/* USO IMPROPRIO? CON % AL RESIZE SALTA ALLINENAMENTO */
 .product .image-box .secondary-label{
-  left: 9%;
+  left: 70px;
 }
 
 
