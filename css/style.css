@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.product{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
