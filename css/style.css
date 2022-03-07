@@ -63,6 +63,24 @@
   position: absolute;
 }
 
+/* Labels z-index */
+.product .image-box .heart, .product .image-box .discount, .product .image-box .sustainability{
+  z-index: 40;
+}
+
+/* Show Secondary image with mouse hover  */
+.product .image-box .secondary-image{
+  position: absolute;
+  left:0;
+  top: 0;
+  display: none;
+  z-index: 30;
+}
+
+.product .image-box:hover .secondary-image{
+  display: block;
+}
+
 /* Information Box */
 .product .information-box{
   padding-top: 10px;
