@@ -8,7 +8,7 @@
   width: 80%;
   margin: 30px auto;
   text-align: center;
-  background-color: red;
+  background-color: lightsalmon;
 }
 
 .product{
@@ -21,15 +21,32 @@
 
 /* Product Elements */
 
-.information-box{
+/* Information Box */
+.product .information-box{
   padding-top: 10px;
   text-align: left;
   color: black;
   font-size: 12px;
 }
 
-.product-name{
+
+/* Information Box Elements */
+.product .information-box .product-name{
   text-transform: uppercase;
 }
 
+.product .information-box .product-price{
+  color: red;
+}
 
+.product .information-box .product-old-price{
+  text-decoration: line-through;
+}
+
+.product .information-box .product-price, .product .information-box .product-old-price{
+  display:inline-block;
+}
+
+.product .information-box .product-name, .product .information-box .product-price{
+  font-weight: bold;
+}
