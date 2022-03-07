@@ -6,11 +6,17 @@
 
 .row{
   width: 80%;
+  height: auto;
+
   margin: 30px auto;
   text-align: center;
-
   /* DA ELIMINARE SUCCESSIVAMENTE */
   background-color: lightsalmon;
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
 }
 
 
@@ -19,9 +25,8 @@
 .product{
   position: relative;
   display: inline-block;
-  margin-right: 20px;
-  height: 80%;
-  width: auto;
+  width: 33%;
+  padding: 30px 5px;
 }
 
 /* Image Elements */
@@ -31,9 +36,22 @@
   cursor: pointer;
 }
 
+
+/* SI RIMPICCIOLISCE SOLO LA SECONDA IMMAGINE */
+
+/* .image-box .primary-image, .image-box .secondary-image{
+  width: auto;
+  height: 80%;
+} */
+
+.image-box img{
+  width: 100%;
+  height: auto;
+}
+
 /* Heart Label top-right */
 .product .image-box .heart{
-  top:10px;
+  top:30px;
   right: 0;
   padding: 10px 15px;
   background-color: white;
@@ -46,13 +64,14 @@
 
 /* Sustainability label, bottom left next to discount label */
 .product .image-box .sustainability{
-  left: 8%;
+  left: 7%;
   background-color: #008759;
 }
 /* Discount,Sustainability labels style */
 .product .image-box .discount, .product .image-box .sustainability{
   color: white;
   bottom: 20px;
+  font-size: 15px;
 }
 .product .image-box .sustainability, .product .image-box .discount{
   padding: 5px;
