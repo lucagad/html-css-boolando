@@ -8,9 +8,10 @@
   width: 80%;
   margin: 30px auto;
   text-align: center;
+
+  /* DA ELIMINARE SUCCESSIVAMENTE */
   background-color: lightsalmon;
 }
-
 
 
 /* Product Elements */
@@ -30,6 +31,7 @@
   cursor: pointer;
 }
 
+/* Heart Label top-right */
 .product .image-box .heart{
   top:10px;
   right: 0;
@@ -37,27 +39,28 @@
   background-color: white;
 } 
 
-
+/* Discount label bottom left */
 .product .image-box .discount{
   background-color: #ea0036;
 }
 
+/* Sustainability label, bottom left next to discount label */
 .product .image-box .sustainability{
   left: 8%;
   background-color: #008759;
 }
-
+/* Discount,Sustainability labels style */
 .product .image-box .discount, .product .image-box .sustainability{
   color: white;
   bottom: 20px;
 }
+.product .image-box .sustainability, .product .image-box .discount{
+  padding: 5px;
+  }
 
+/* Position of Discount,Sustainability and Heart labels style */
 .product .image-box .heart, .product .image-box .discount, .product .image-box .sustainability{
   position: absolute;
-}
-
-.product .image-box .sustainability, .product .image-box .discount{
-padding: 5px;
 }
 
 /* Information Box */
