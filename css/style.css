@@ -23,12 +23,7 @@ body{
   position: relative;
   display: inline-block;
   width: 32%;
-<<<<<<< HEAD
   padding: 30px 5px;
-=======
-  cursor: pointer;
-  margin: 30px 2px;
->>>>>>> 97c7194aa87593aba78490461ec5f2269b684f7a
 }
 
 /* Image Elements */
