@@ -8,6 +8,7 @@
   width: 80%;
   height: auto;
   margin: 30px auto;
+  text-align: center;
 }
 
 body{
@@ -22,61 +23,65 @@ body{
 .product{
   position: relative;
   display: inline-block;
-  width: 33%;
-  cursor: pointer;
-  margin: 30px 2px;
+  width: 32%;
+  padding: 30px 5px;
 }
 
 /* Image Elements */
 
-.product img{
+.image-box{
+  position: relative;
+  cursor: pointer;
+}
+
+.image-box img{
   width: 100%;
   height: auto;
 }
 
 /* Heart Label top-right */
-.product .heart{
+.product .image-box .heart{
   top:30px;
-  right: 0px;
+  right: 0;
   padding: 10px 15px;
   background-color: white;
 } 
 
 /* Discount label bottom left */
-.product .discount{
+.product .image-box .discount{
   background-color: #ea0036;
 }
 
 /* Sustainability label, bottom left next to discount label */
-.product .sustainability{
+.product .image-box .sustainability{
   background-color: #008759;
 }
 /* Discount,Sustainability labels style */
-.product .discount, .product .sustainability{
+.product .image-box .discount, .product .image-box .sustainability{
   color: white;
-  bottom: 150px;
+  bottom: 20px;
   font-size: 15px;
   padding: 10px;
 }
 
 /* USO IMPROPRIO? CON % AL RESIZE SALTA ALLINENAMENTO */
-.product .secondary-label{
+.product .image-box .secondary-label{
   left: 70px;
 }
 
 
 /* Position of Discount,Sustainability and Heart labels style */
-.product .heart, .product .discount, .product .sustainability{
+.product .image-box .heart, .product .image-box .discount, .product .image-box .sustainability{
   position: absolute;
 }
 
 /* Labels z-index */
-.product .heart, .product .discount, .product .sustainability{
+.product .image-box .heart, .product .image-box .discount, .product .image-box .sustainability{
   z-index: 40;
 }
 
 /* Show Secondary image with mouse hover  */
-.product .secondary-image{
+.product .image-box .secondary-image{
   position: absolute;
   left:0;
   top: 0;
@@ -84,32 +89,33 @@ body{
   z-index: 30;
 }
 
-.product:hover .secondary-image{
+.product .image-box:hover .secondary-image{
   display: block;
 }
 
+/* Information Box */
+.product .information-box{
+  padding-top: 10px;
+  text-align: left;
+}
 
-/* Informations Elements */
-.product .product-name{
+/* Information Box Elements */
+.product .information-box .product-name{
   text-transform: uppercase;
 }
 
-.product .product-brand{
-  padding-top: 10px;
-}
-
-.product .product-price{
+.product .information-box .product-price{
   color: red;
 }
 
-.product .product-old-price{
+.product .information-box .product-old-price{
   text-decoration: line-through;
 }
 
-/* .product .information-box.product-price, .product .information-box.product-old-price{
+.product .information-box .product-price, .product .information-box .product-old-price{
   display:inline-block;
-} */
+}
 
-.product .product-name, .product .product-price{
+.product .information-box .product-name, .product .information-box .product-price{
   font-weight: bold;
 }
