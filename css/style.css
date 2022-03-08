@@ -13,7 +13,7 @@
 
 body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
 }
 
@@ -67,7 +67,6 @@ body{
 .product .image-box .secondary-label{
   left: 70px;
 }
-
 
 /* Position of Discount,Sustainability and Heart labels style */
 .product .image-box .heart, .product .image-box .discount, .product .image-box .sustainability{
