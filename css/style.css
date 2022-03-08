@@ -5,7 +5,7 @@
 }
 
 .row{
-  width: 80%;
+  width: 90%;
   height: auto;
   margin: 30px auto;
 }
@@ -22,7 +22,7 @@ body{
 .product{
   position: relative;
   display: inline-block;
-  width: 33%;
+  width: 32%;
   cursor: pointer;
   margin: 30px 2px;
 }
