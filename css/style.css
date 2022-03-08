@@ -88,7 +88,7 @@ body{
 }
 
 .product .image-box:hover .secondary-image{
-  display: block;
+  display: inline-block;
 }
 
 /* Information Box */
