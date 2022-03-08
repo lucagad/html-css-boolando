@@ -46,6 +46,12 @@ body{
   background-color: white;
 } 
 
+.image-box .product-promo{
+  position: absolute;
+  left: 0;
+  bottom:30px;
+}
+
 /* Discount label bottom left */
 .product .image-box .discount{
   background-color: #ea0036;
@@ -56,20 +62,20 @@ body{
   background-color: #008759;
 }
 /* Discount,Sustainability labels style */
-.product .image-box .discount, .product .image-box .sustainability{
+.product-promo span{
   color: white;
-  bottom: 20px;
   font-size: 15px;
   padding: 10px;
+  font-weight: bold;
 }
 
 /* USO IMPROPRIO? CON % AL RESIZE SALTA ALLINENAMENTO */
-.product .image-box .secondary-label{
+/* .product .image-box .secondary-label{
   left: 70px;
-}
+} */
 
-/* Position of Discount,Sustainability and Heart labels style */
-.product .image-box .heart, .product .image-box .discount, .product .image-box .sustainability{
+/* Position of Heart labels style */
+.product .image-box .heart{
   position: absolute;
 }
 
